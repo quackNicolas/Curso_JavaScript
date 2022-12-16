@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: orange;
+}
+
+.logo-duck {
+    width: 3em;
+    height: 4em;
+}
+
+header {
+    display: grid;  
+    margin: 10px;  
+}
+
+.container {
+    display: grid;
+    vertical-align: middle;
+    align-items: center;
+    margin: 10px;
+    align-items: center;
+    justify-content:center;
+    background-color: rgb(11, 18, 90);
+    border-radius: 20px;
+
+}
+
+.container-row {
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    margin: 10px;
+}
+
+ul a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a:hover {
+    color: rgba(255, 255, 255, 0.527);
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.header-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+div {
+    padding: 0 10px 0 0;
+}
+
+#logo {
+    margin: 0 0 0;
+}
+
+#search-bar {
+    margin: 0 100px 0 0;
+    grid-area: 20px;
+}
+
+
